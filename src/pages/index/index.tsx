@@ -1,23 +1,12 @@
-import { Component, PropsWithChildren } from "react";
 import { View, Text } from "@tarojs/components";
 import "./index.less";
 
-export default class Index extends Component<PropsWithChildren> {
-  componentWillMount() {}
+const Index = () => {
+  return (
+    <View className="index">
+      <Text>Hello world!</Text>
+    </View>
+  );
+};
 
-  componentDidMount() {}
-
-  componentWillUnmount() {}
-
-  componentDidShow() {}
-
-  componentDidHide() {}
-
-  render() {
-    return (
-      <View className="index">
-        <Text>Hello world!</Text>
-      </View>
-    );
-  }
-}
+export default Index;
