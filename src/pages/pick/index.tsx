@@ -2,7 +2,7 @@ import { Component, PropsWithChildren } from "react";
 import { View, Text } from "@tarojs/components";
 import "./index.less";
 
-export default class Index extends Component<PropsWithChildren> {
+export default class Pick extends Component<PropsWithChildren> {
   componentWillMount() {}
 
   componentDidMount() {}
@@ -16,7 +16,7 @@ export default class Index extends Component<PropsWithChildren> {
   render() {
     return (
       <View className="index">
-        <Text>Hello world!</Text>
+        <Text>Pick!</Text>
       </View>
     );
   }
