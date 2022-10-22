@@ -3,7 +3,7 @@ import "./index.less";
 
 const Index = () => {
   return (
-    <View className="index">
+    <View className='w-10_12 m-auto'>
       <Text>Hello world!</Text>
     </View>
   );

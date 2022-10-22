@@ -1,5 +1,5 @@
 import sr from 'sr-sdk-wxapp'
-
+import 'windi.css';
 import './app.less'
 
 /**
